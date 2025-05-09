@@ -11,7 +11,10 @@ public class Pertemuan701 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        persegi ps = new persegi();
+        ps.setPanjang(8);
+        ps.setLebar(5);
+        ps.hitungLuas();
     }
     
 }
